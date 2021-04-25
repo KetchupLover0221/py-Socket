@@ -49,6 +49,8 @@ python Client.py
 
 任意一方发送  `exit()`断开连接
 
+
+
 ### 2）TCP 程序
 
 #### 服务端
@@ -61,6 +63,8 @@ python Server.py
 显示：`The Server is READY to RECEIVE via TCP @ 9999`
 
 表明服务端已正常打开，端口：`9999` 正在等待客户连接
+
+
 
 
 #### 客户端
@@ -89,8 +93,8 @@ Please enter server Port: 9999
 根据程序提示，输入用户名与密码以登录
 
 ```
-	测试用户名：tyz
-	测试密码：123
+测试用户名：tyz
+测试密码：123
 ```
 
 若登录成功，此时服务端显示：
