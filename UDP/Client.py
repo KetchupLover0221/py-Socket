@@ -1,5 +1,5 @@
 from socket import *
-import threading, time, os, sys, getopt
+import threading, time
 
 def Recvmsg():
         while 1:

@@ -1,5 +1,5 @@
 from socket import *
-import threading, time, os, sys, getopt
+import threading, time
 
 
 def intermsg(users, client, username):
@@ -77,7 +77,7 @@ def StartServer(ip,port):
 
 
 if __name__ == '__main__':
-    admin = [['tyz', '123'],['wxs','456']]
+    admin = [['tyz', '123'],['abc','456']]
     users = {}
     StartServer('localhost',9999)
     os._exit(0)
